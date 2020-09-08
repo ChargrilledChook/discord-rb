@@ -37,4 +37,8 @@ bot.message(with_text: 'suck') do |event|
   event.respond "SUCK EM DRY"
 end
 
+bot.message(with_text: 'milk') do |event|
+  event.respond "MILK EM DRY"
+end
+
 bot.run
