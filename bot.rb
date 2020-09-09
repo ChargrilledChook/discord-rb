@@ -22,7 +22,7 @@ bot.message(with_text: 'goodboy') do |event|
 end
 
 bot.message(with_text: 'goodboys') do |event|
-  5.times {|_goodboy| event.respond "<:KeelanGoodboy:311362006638919680>" }
+  5.times { event.respond "<:KeelanGoodboy:311362006638919680>" }
 end
 
 bot.message(with_text: 'nah') do |event|
