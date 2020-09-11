@@ -4,6 +4,17 @@ require 'yaml'
 CONFIG = YAML.load_file('config.yaml')
 bot = Discordrb::Bot.new token: CONFIG['token']
 
+brag_count = 5
+
+bot.message(with_text: 'brag') do |event|
+  event.respond "Reminds me of the time I smashed Khade and Mincie #{brag_count} - 0"
+  brag_count += 1
+end
+
+bot.message(with_text: 'craft beer') do |event|
+  event.respond "yeah that's me fave cobba"
+end
+
 bot.message(with_text: 'oi') do |event|
   event.respond "What dog"
   event.respond "<:UWot:311362042386972672>"
