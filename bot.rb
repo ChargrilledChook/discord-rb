@@ -52,4 +52,8 @@ bot.message(with_text: 'milk') do |event|
   event.respond "MILK EM DRY"
 end
 
+bot.message(with_text: msg) do |event|
+  event.respond responses[msg]
+end
+
 bot.run
