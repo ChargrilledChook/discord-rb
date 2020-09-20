@@ -56,6 +56,19 @@ bot.message(with_text: 'caz') do |event|
   event.respond "Absolute devil dog"
 end
 
+bot.message(with_text: 'meeting') do |event|
+  event.respond "https://i.redd.it/naaw2k09v7k51.jpg"
+  event.respond "<:KeelanGoodboy:311362006638919680>
+  <:wantsomefuk:757153118562680922>
+  <:BrianWTF:757153118562680922>
+  <:BrysonGoodBoy:757153118562680922>
+  <:Definitelynotcayden:757153118562680922>
+  <:grumpymorgs:757153118562680922>
+  <:WillRekt:757153118562680922>
+  <:CoolStoryCaz:757153118562680922>
+  <:suremate:757153118562680922>"
+end
+
 #bot.message(with_text: msg) do |event|
 #  event.respond responses[msg]
 #end
