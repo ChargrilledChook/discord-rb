@@ -58,15 +58,7 @@ end
 
 bot.message(with_text: 'meeting') do |event|
   event.respond "https://i.redd.it/naaw2k09v7k51.jpg"
-  event.respond "<:KeelanGoodboy:311362006638919680>
-  <:wantsomefuk:757153118562680922>
-  <:BrianWTF:757153118562680922>
-  <:BrysonGoodBoy:757153118562680922>
-  <:Definitelynotcayden:757153118562680922>
-  <:grumpymorgs:757153118562680922>
-  <:WillRekt:757153118562680922>
-  <:CoolStoryCaz:757153118562680922>
-  <:suremate:757153118562680922>"
+  event.respond "<:wantsomefuk:647722255198978058><:KeelanGoodboy:311362006638919680><:BrianWTF:234961868932907010><:BrysonGoodBoy:647671755439210507><:Definitelynotcayden:378804271996600330><:grumpymorgs:602831818366124062><:WillRekt:243666615927963649><:CoolStoryCaz:531029257124839424><:suremate:321971194825932811><:excuseme:438159985399169024>"
 end
 
 #bot.message(with_text: msg) do |event|
