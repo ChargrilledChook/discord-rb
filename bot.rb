@@ -61,6 +61,10 @@ bot.message(with_text: 'meeting') do |event|
   event.respond "<:wantsomefuk:647722255198978058><:KeelanGoodboy:311362006638919680><:BrianWTF:234961868932907010><:BrysonGoodBoy:647671755439210507><:Definitelynotcayden:378804271996600330><:grumpymorgs:602831818366124062><:WillRekt:243666615927963649><:CoolStoryCaz:531029257124839424><:suremate:321971194825932811><:excuseme:438159985399169024>"
 end
 
+bot.message(with_text: 'bean') do |event|
+  event.respond "grow a brain ya absolute mung bean"
+end
+
 #bot.message(with_text: msg) do |event|
 #  event.respond responses[msg]
 #end
